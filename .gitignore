@@ -1,0 +1,25 @@
+# Don't push node modules and npm files
+/node_modules
+npm-debug.log
+
+# Don't push project specific files
+/dist
+/tmp
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/public/dist/
+/src/*/dist/
+/dist/**
+.webpack.json
+
+# OS generated files #
+.DS_Store
+ehthumbs.db
+Icon?
+
+# Typing #
+/src/typings/tsd/
+/typings/
+/tsd_typings/
+
