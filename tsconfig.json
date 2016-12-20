@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "inlineSourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "listFiles": true
+    },
+    "files": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
